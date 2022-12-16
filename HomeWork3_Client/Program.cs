@@ -71,6 +71,7 @@ namespace HomeWork3_Client
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
+                Console.WriteLine("Проверьте работоспособность API, и URI метода в файле конфигурации приложения");
                 Console.WriteLine();
             }
 
@@ -106,6 +107,7 @@ namespace HomeWork3_Client
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
+                Console.WriteLine("Проверьте работоспособность API, и URI метода в файле конфигурации приложения");
                 Console.WriteLine();
             }
         }
